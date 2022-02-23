@@ -1,9 +1,11 @@
 name: sklearn-tutorial
 
 dependencies:
-  - python=3.5
+  - python=3.10
   - numpy
   - scipy
   - matplotlib
   - pandas
   - scikit-learn
+  - jupyter-core
+  - shap

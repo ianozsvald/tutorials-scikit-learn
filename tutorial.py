@@ -37,8 +37,8 @@ def plot_histogram(clf, X, y, subplot=None, show=True):
     else:
         d = clf.predict_proba(X)[:, 1]
     
-    plt.hist(d[y == "b"], bins=50, normed=True, color="b", alpha=0.5)
-    plt.hist(d[y == "r"], bins=50, normed=True, color="r", alpha=0.5)
+    plt.hist(d[y == "b"], bins=50, density=True, color="b", alpha=0.5)
+    plt.hist(d[y == "r"], bins=50, density=True, color="r", alpha=0.5)
     
     if show:
         plt.show()
