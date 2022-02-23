@@ -2,7 +2,7 @@ name: sklearn-tutorial
 
 dependencies:
   - python=3.10
-  - numpy
+  - numpy=1.21
   - scipy
   - matplotlib
   - pandas
