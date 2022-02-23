@@ -7,5 +7,5 @@ dependencies:
   - matplotlib
   - pandas
   - scikit-learn
-  - jupyter-core
+  - jupyter
   - shap
