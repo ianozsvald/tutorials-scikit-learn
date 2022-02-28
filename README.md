@@ -23,6 +23,7 @@ Using Anaconda:
 
 ```
 conda env create -f environment.yml
+conda activate sklearn-tutorial
 ```
 
 ## Launch on Binder without installing anything!
